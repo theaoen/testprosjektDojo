@@ -2,14 +2,13 @@
 
 How to create a React Native project with Expo: 
 
-Setting up Expo
+#Setting up Expo
 There are a couple of requirements for Expo to work as planned. 
 
 1.	First, make sure that you have the Expo app installed on your device. 
 2.	Install NodeJS from this link: https://nodejs.org/en/ 
 3.	Node also installs npm for you, but probably not the latest version. It’s therefore a good idea to update it asap by typing:
 
-  
     npm install -g npm@latest
     
 You should then install the command line tool for Expo. 
@@ -18,7 +17,7 @@ This will run locally to package, serve and publish your project.
     npm install exp --global
    
 
-Creating your first project and opening it in Expo
+#Creating your first project and opening it in Expo
 1.	You’ll probably be asked to create an Expo account before proceeding. The following commands will create a project in the folder you are currently in, so navigate somewhere you’d want those project files to be saved. You’ll get the option to start out with a template or a clean project. 
     exp init my-new-project
     cd my-new-project
@@ -39,7 +38,7 @@ Creating your first project and opening it in Expo
 You’ll get notified with a link that allows you to open your project in the Expo app. 
 
 
-Adding an existing project to Git
+#Adding an existing project to Git
 1.	Start by creating a new repository in Github. You do not need to initialize it at this point. 
 2.	Use terminal to navigate to the folder where your current project exists. 
 3.	Initialize this local directory as a Git repository by typing
